@@ -1,0 +1,90 @@
+@import "typography";
+@import "colors";
+@import "spacing";
+
+/* Small Adjustment Classes */
+
+.no-pad {
+    padding: 0;
+}
+
+.no-mar {
+    margin: 0;
+}
+
+.sm {
+    font-size: $body-s;
+}
+
+
+
+/* Main Styles */
+
+body {
+    font-family: $font-stack;
+    margin: $s-24;
+}
+
+h1 {
+    font-weight: $medium;
+    font-size: $h1;
+    color: $link-color;
+    margin: $s-0;
+}
+
+h2 {
+    font-weight: $regular;
+    font-size: $h2;
+    color: $header-color;
+}
+
+h3 {
+    font-weight: $regular;
+    font-size: $h3;
+    color: $header-color;
+}
+
+h4 {
+    font-weight: $thin;
+    font-size: $h4;
+    color: $header-color;
+}
+
+p {
+    line-height: $s-24;
+    color: $link-color;
+    font-size: $body;
+    padding: $s-24 0 $s-24 0;
+}
+
+
+
+
+
+.btn {
+    border: none;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: $s-16 $s-40;
+    font-weight: $medium;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: $link-color;
+
+    &:hover {
+        background-color: $tomato-800;
+    }
+}
+
+.container {
+    margin-top: 25vh;
+
+}
+
+.content {
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 345px;
+}
+

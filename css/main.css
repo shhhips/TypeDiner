@@ -1,0 +1,78 @@
+/* Typescale */
+/* Type Colors */
+/* App Colors */
+/* Small Adjustment Classes */
+.no-pad {
+  padding: 0;
+}
+
+.no-mar {
+  margin: 0;
+}
+
+.sm {
+  font-size: 0.75rem;
+}
+
+/* Main Styles */
+body {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 24px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 4rem;
+  color: #F96421;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 3rem;
+  color: #000000;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #000000;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 1.875rem;
+  color: #000000;
+}
+
+p {
+  line-height: 24px;
+  color: #F96421;
+  font-size: 1rem;
+  padding: 24px 0 24px 0;
+}
+
+.btn {
+  border: none;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 16px 40px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #F96421;
+}
+.btn:hover {
+  background-color: #E54D2E;
+}
+
+.container {
+  margin-top: 25vh;
+}
+
+.content {
+  margin: auto;
+  display: block;
+  text-align: center;
+  width: 345px;
+}/*# sourceMappingURL=main.css.map */
